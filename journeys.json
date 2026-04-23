@@ -1,0 +1,943 @@
+{
+	"earlierRef": "3|OB|MTµ14µ190275µ190275µ190315µ190315µ0µ0µ165µ190266µ1µ0µ1050µ0µ0µ-2147483648µ1µ2|PDHµ723575cfd557ab7859d598281cf69b52|RDµ23042026|RTµ30900|USµ0|RSµINIT",
+	"laterRef": "3|OF|MTµ14µ190395µ190395µ190435µ190435µ0µ0µ165µ190376µ5µ0µ1050µ0µ0µ-2147483648µ1µ2|PDHµ723575cfd557ab7859d598281cf69b52|RDµ23042026|RTµ30900|USµ0|RSµINIT",
+	"journeys": [
+		{
+			"type": "journey",
+			"legs": [
+				{
+					"origin": {
+						"id": "8070003",
+						"name": "Frankfurt(M) Flughafen Fernbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8070003",
+							"latitude": 50.052925,
+							"longitude": 8.569776
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 68417.9,
+						"ril100Ids": [
+							"FFLF"
+						],
+						"ifoptId": "de:06412:11511",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"stadaId": "7982"
+					},
+					"destination": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"departure": "2026-04-23T03:15:00+02:00",
+					"plannedDeparture": "2026-04-23T03:15:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T03:30:00+02:00",
+					"plannedArrival": "2026-04-23T03:30:00+02:00",
+					"arrivalDelay": null,
+					"public": true,
+					"walking": true,
+					"distance": 205
+				},
+				{
+					"origin": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"destination": {
+						"id": "8000240",
+						"name": "Mainz Hbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8000240",
+							"latitude": 50.00124,
+							"longitude": 8.258453
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 387420.5,
+						"ril100Ids": [
+							"FMZ"
+						],
+						"ifoptId": "de:07315:9037",
+						"priceCategory": 2,
+						"transitAuthority": "ZÖPNV Süd",
+						"stadaId": "3898"
+					},
+					"departure": "2026-04-23T03:30:00+02:00",
+					"plannedDeparture": "2026-04-23T03:30:00+02:00",
+					"departureDelay": 0,
+					"arrival": "2026-04-23T03:55:00+02:00",
+					"plannedArrival": "2026-04-23T03:55:00+02:00",
+					"arrivalDelay": 0,
+					"tripId": "2|#VN#1#ST#1776708124#PI#0#ZI#302394#TA#0#DA#230426#1S#8000150#1T#246#LS#8000240#LT#355#PU#80#RT#1#CA#DBS#ZE#S8#ZB#               S8#PC#4#FR#8000150#FT#246#TO#8000240#TT#355#",
+					"line": {
+						"type": "line",
+						"id": "s-35894",
+						"fahrtNr": "35894",
+						"name": "S8",
+						"public": true,
+						"adminCode": "800528",
+						"productName": "S",
+						"mode": "train",
+						"product": "suburban",
+						"operator": {
+							"type": "operator",
+							"id": "db-regio-ag-s-bahn-rhein-main",
+							"name": "DB Regio AG S-Bahn Rhein-Main"
+						}
+					},
+					"direction": "Mainz Hbf",
+					"arrivalPlatform": "3a/b",
+					"plannedArrivalPlatform": "1a",
+					"departurePlatform": "Regio 3",
+					"plannedDeparturePlatform": "Regio 3",
+					"loadFactor": "low-to-medium"
+				}
+			],
+			"refreshToken": "¶HKI¶W$A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@L=8070003@a=128@$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$202604230315$202604230330$$$1$$$$$$§T$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$A=1@O=Mainz Hbf@X=8258723@Y=50001113@L=8000240@a=128@$202604230330$202604230355$               S8$$1$$$$$$"
+		},
+		{
+			"type": "journey",
+			"legs": [
+				{
+					"origin": {
+						"id": "8070003",
+						"name": "Frankfurt(M) Flughafen Fernbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8070003",
+							"latitude": 50.052925,
+							"longitude": 8.569776
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 68417.9,
+						"ril100Ids": [
+							"FFLF"
+						],
+						"ifoptId": "de:06412:11511",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"stadaId": "7982"
+					},
+					"destination": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"departure": "2026-04-23T04:15:00+02:00",
+					"plannedDeparture": "2026-04-23T04:15:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T04:30:00+02:00",
+					"plannedArrival": "2026-04-23T04:30:00+02:00",
+					"arrivalDelay": null,
+					"public": true,
+					"walking": true,
+					"distance": 205
+				},
+				{
+					"origin": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"destination": {
+						"id": "8000240",
+						"name": "Mainz Hbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8000240",
+							"latitude": 50.00124,
+							"longitude": 8.258453
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 387420.5,
+						"ril100Ids": [
+							"FMZ"
+						],
+						"ifoptId": "de:07315:9037",
+						"priceCategory": 2,
+						"transitAuthority": "ZÖPNV Süd",
+						"stadaId": "3898"
+					},
+					"departure": "2026-04-23T04:30:00+02:00",
+					"plannedDeparture": "2026-04-23T04:30:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T04:55:00+02:00",
+					"plannedArrival": "2026-04-23T04:55:00+02:00",
+					"arrivalDelay": null,
+					"tripId": "2|#VN#1#ST#1776708124#PI#0#ZI#301971#TA#0#DA#230426#1S#8000150#1T#346#LS#8000250#LT#513#PU#80#RT#1#CA#DBS#ZE#S8#ZB#               S8#PC#4#FR#8000150#FT#346#TO#8000250#TT#513#",
+					"line": {
+						"type": "line",
+						"id": "s-35802",
+						"fahrtNr": "35802",
+						"name": "S8",
+						"public": true,
+						"adminCode": "800528",
+						"productName": "S",
+						"mode": "train",
+						"product": "suburban",
+						"operator": {
+							"type": "operator",
+							"id": "db-regio-ag-s-bahn-rhein-main",
+							"name": "DB Regio AG S-Bahn Rhein-Main"
+						}
+					},
+					"direction": "Wiesbaden Hbf",
+					"arrivalPlatform": "3a/b",
+					"plannedArrivalPlatform": "1a",
+					"departurePlatform": "Regio 3",
+					"plannedDeparturePlatform": "Regio 3",
+					"loadFactor": "low-to-medium"
+				}
+			],
+			"refreshToken": "¶HKI¶W$A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@L=8070003@a=128@$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$202604230415$202604230430$$$1$$$$$$§T$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$A=1@O=Mainz Hbf@X=8258723@Y=50001113@L=8000240@a=128@$202604230430$202604230455$               S8$$3$$$$$$"
+		},
+		{
+			"type": "journey",
+			"legs": [
+				{
+					"origin": {
+						"id": "8070003",
+						"name": "Frankfurt(M) Flughafen Fernbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8070003",
+							"latitude": 50.052925,
+							"longitude": 8.569776
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 68417.9,
+						"ril100Ids": [
+							"FFLF"
+						],
+						"ifoptId": "de:06412:11511",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"stadaId": "7982"
+					},
+					"destination": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"departure": "2026-04-23T04:45:00+02:00",
+					"plannedDeparture": "2026-04-23T04:45:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T05:00:00+02:00",
+					"plannedArrival": "2026-04-23T05:00:00+02:00",
+					"arrivalDelay": null,
+					"public": true,
+					"walking": true,
+					"distance": 205
+				},
+				{
+					"origin": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"destination": {
+						"id": "8000240",
+						"name": "Mainz Hbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8000240",
+							"latitude": 50.00124,
+							"longitude": 8.258453
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 387420.5,
+						"ril100Ids": [
+							"FMZ"
+						],
+						"ifoptId": "de:07315:9037",
+						"priceCategory": 2,
+						"transitAuthority": "ZÖPNV Süd",
+						"stadaId": "3898"
+					},
+					"departure": "2026-04-23T05:00:00+02:00",
+					"plannedDeparture": "2026-04-23T05:00:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T05:25:00+02:00",
+					"plannedArrival": "2026-04-23T05:25:00+02:00",
+					"arrivalDelay": null,
+					"tripId": "2|#VN#1#ST#1776708124#PI#0#ZI#301980#TA#0#DA#230426#1S#8004645#1T#428#LS#8000250#LT#543#PU#80#RT#1#CA#DBS#ZE#S8#ZB#               S8#PC#4#FR#8004645#FT#428#TO#8000250#TT#543#",
+					"line": {
+						"type": "line",
+						"id": "s-35804",
+						"fahrtNr": "35804",
+						"name": "S8",
+						"public": true,
+						"adminCode": "800528",
+						"productName": "S",
+						"mode": "train",
+						"product": "suburban",
+						"operator": {
+							"type": "operator",
+							"id": "db-regio-ag-s-bahn-rhein-main",
+							"name": "DB Regio AG S-Bahn Rhein-Main"
+						}
+					},
+					"direction": "Wiesbaden Hbf",
+					"arrivalPlatform": "3a/b",
+					"plannedArrivalPlatform": "1a",
+					"departurePlatform": "Regio 3",
+					"plannedDeparturePlatform": "Regio 3",
+					"loadFactor": "low-to-medium"
+				}
+			],
+			"refreshToken": "¶HKI¶W$A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@L=8070003@a=128@$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$202604230445$202604230500$$$1$$$$$$§T$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$A=1@O=Mainz Hbf@X=8258723@Y=50001113@L=8000240@a=128@$202604230500$202604230525$               S8$$3$$$$$$"
+		},
+		{
+			"type": "journey",
+			"legs": [
+				{
+					"origin": {
+						"id": "8070003",
+						"name": "Frankfurt(M) Flughafen Fernbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8070003",
+							"latitude": 50.052925,
+							"longitude": 8.569776
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 68417.9,
+						"ril100Ids": [
+							"FFLF"
+						],
+						"ifoptId": "de:06412:11511",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"stadaId": "7982"
+					},
+					"destination": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"departure": "2026-04-23T04:55:00+02:00",
+					"plannedDeparture": "2026-04-23T04:55:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T05:10:00+02:00",
+					"plannedArrival": "2026-04-23T05:10:00+02:00",
+					"arrivalDelay": null,
+					"public": true,
+					"walking": true,
+					"distance": 205
+				},
+				{
+					"origin": {
+						"id": "8070004",
+						"name": "Frankfurt(M) Flughafen Regionalbf",
+						"type": "stop",
+						"location": {
+							"type": "location",
+							"id": "8070004",
+							"latitude": 50.051388,
+							"longitude": 8.571349
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": false,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 59776.5,
+						"ril100Ids": [
+							"FFLU"
+						],
+						"ifoptId": "de:06412:2930",
+						"priceCategory": 3,
+						"transitAuthority": "RMV",
+						"station": {
+							"id": "8070003",
+							"name": "Frankfurt(M) Flughafen Fernbf",
+							"type": "station",
+							"location": {
+								"id": "8070003",
+								"type": "location",
+								"latitude": 50.053167,
+								"longitude": 8.570185
+							},
+							"products": {
+								"nationalExpress": true,
+								"national": true,
+								"regionalExpress": true,
+								"regional": true,
+								"suburban": true,
+								"subway": false,
+								"tram": false,
+								"bus": false,
+								"taxi": false,
+								"ferry": false
+							},
+							"weight": 68417.9,
+							"ril100Ids": [
+								"FFLF"
+							],
+							"ifoptId": "de:06412:11511",
+							"priceCategory": 3,
+							"transitAuthority": "RMV",
+							"stadaId": "7982"
+						},
+						"stadaId": "1849"
+					},
+					"destination": {
+						"id": "8000240",
+						"name": "Mainz Hbf",
+						"type": "station",
+						"location": {
+							"type": "location",
+							"id": "8000240",
+							"latitude": 50.00124,
+							"longitude": 8.258453
+						},
+						"products": {
+							"nationalExpress": true,
+							"national": true,
+							"regionalExpress": true,
+							"regional": true,
+							"suburban": true,
+							"subway": false,
+							"tram": false,
+							"bus": false,
+							"taxi": false,
+							"ferry": false
+						},
+						"weight": 387420.5,
+						"ril100Ids": [
+							"FMZ"
+						],
+						"ifoptId": "de:07315:9037",
+						"priceCategory": 2,
+						"transitAuthority": "ZÖPNV Süd",
+						"stadaId": "3898"
+					},
+					"departure": "2026-04-23T05:10:00+02:00",
+					"plannedDeparture": "2026-04-23T05:10:00+02:00",
+					"departureDelay": null,
+					"arrival": "2026-04-23T05:30:00+02:00",
+					"plannedArrival": "2026-04-23T05:30:00+02:00",
+					"arrivalDelay": null,
+					"tripId": "2|#VN#1#ST#1776708124#PI#0#ZI#285277#TA#0#DA#230426#1S#8000105#1T#455#LS#8000039#LT#555#PU#80#RT#1#CA#NRE#ZE#4250#ZB#             4250#PC#3#FR#8000105#FT#455#TO#8000039#TT#555#",
+					"line": {
+						"type": "line",
+						"id": "re-4250",
+						"fahrtNr": "4250",
+						"name": "RE2",
+						"public": true,
+						"adminCode": "800640",
+						"productName": "RE",
+						"mode": "train",
+						"product": "regional",
+						"operator": {
+							"type": "operator",
+							"id": "db-regio-ag-mitte-suwex",
+							"name": "DB Regio AG Mitte SÜWEX"
+						}
+					},
+					"direction": "Bingen(Rhein) Hbf",
+					"arrivalPlatform": "2a",
+					"plannedArrivalPlatform": "3a/b",
+					"departurePlatform": "Regio 3",
+					"plannedDeparturePlatform": "Regio 3",
+					"loadFactor": "low-to-medium"
+				}
+			],
+			"refreshToken": "¶HKI¶W$A=1@O=Frankfurt(M) Flughafen Fernbf@X=8570181@Y=50053169@L=8070003@a=128@$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$202604230455$202604230510$$$1$$$$$$§T$A=1@O=Frankfurt(M) Flughafen Regionalbf@X=8571250@Y=50051219@L=8070004@a=128@$A=1@O=Mainz Hbf@X=8258723@Y=50001113@L=8000240@a=128@$202604230510$202604230530$             4250$$1$$$$$$"
+		}
+	],
+	"realtimeDataUpdatedAt": null
+}
